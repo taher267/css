@@ -1,4 +1,4 @@
-<div class="industry_slide_Item">
+<div class="industry_single_slide">
 <div class="industry_single_slide_inner">
   content
 </div>
@@ -7,10 +7,17 @@
 
 //css
 <style>
-.industry_slide_Item {
+.industry_single_slide {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-color: #ddd;
     height: 640px;
+    display: table;
     position: relative;
-    display: table;width: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
 }
 .industry_single_slide_inner{
 	display: table-cell;vertical-align: middle;
