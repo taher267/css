@@ -1,0 +1,18 @@
+<div class="industry_slide_Item">
+<div class="industry_single_slide_inner">
+  content
+</div>
+</div>
+
+
+//css
+<style>
+.industry_slide_Item {
+    height: 640px;
+    position: relative;
+    display: table;width: 100%;
+}
+.industry_single_slide_inner{
+	display: table-cell;vertical-align: middle;
+}
+</style>
