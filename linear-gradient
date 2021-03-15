@@ -1,0 +1,10 @@
+header#header {
+    background: grey;
+    padding: 18px 0;
+    color: #fff;
+    max-width: 100%;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(60deg, rgba(12, 60, 142, 1) 75%, rgba(20, 181, 240, 0.8) 25%) repeat scroll 0 0;
+}
